@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+}
+.list {
+  list-style: none;
+  display: flex;
+  color: white;
+}
+
+.item {
+  margin: 5px 14px 5px 14px;
+  padding: 6px 10px;
+  border: 1px solid aquamarine;
+  border-radius: 11px;
+  transition: all ease 0.35s;
+}
+.item:hover {
+  transform: translateY(-2px);
+  border: 1px solid rgb(255, 9, 9);
+}

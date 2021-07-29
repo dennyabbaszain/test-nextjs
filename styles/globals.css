@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.btn {
+  padding: 6px 19px;
+  color: green;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all ease 0.35s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  background-color: rgba(128, 128, 128, 0.494);
+  cursor: pointer;
+}
+
+.title {
+  margin: 100px;
+  transition: all ease 0.35s;
+}
+.title:hover {
+  transform: translateY(-3px);
+}
+
+.img {
+  border: 2px solid black;
+  border-radius: 50%;
+}
