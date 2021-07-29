@@ -1,7 +1,7 @@
 import { useRouter } from 'next/dist/client/router';
 import Image from 'next/image'; // kelebihan Image dari next bisa mengkompres image itu sendiri dan load gambar disaat dibutuhkan dan itu sangat menghemat bandwith
 import Layout from '../../components/Layout';
-import styles from './../..styles/Users.module.css';
+import styles from './../../styles/Users.module.css';
 
 export default function Users({ users }) {
   const router = useRouter();

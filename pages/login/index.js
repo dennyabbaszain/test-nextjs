@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Layout from '../../components/Layout';
-import styles from './../..styles/Login.module.css';
+import styles from '../../styles/Login.module.css';
 
 export default function Login() {
   return (
